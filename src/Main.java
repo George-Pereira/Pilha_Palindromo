@@ -7,7 +7,7 @@ public class Main
 		int CTA;
 		DynamicStack pilha = new DynamicStack();
 		String caracteres = JOptionPane.showInputDialog("Insira os caracteres desejados:");
-		char [] array = caracteres.toCharArray();
+		char [] array = caracteres.toLowerCase().toCharArray();
 		for(CTA = 0; CTA<array.length; CTA++) 
 		{
 			if(array[CTA] != ' ' && array[CTA] != '-' && array[CTA] != ',') 
